@@ -1,3 +1,6 @@
+from CalcwithClasses import Calculator
+
+
 # Functions are block of code that are intended to do perform some task.
 
 # defining a function
@@ -123,7 +126,7 @@ print(a)
 
 # function decorators
 
-"""decorators accepts function as paramter and return function as a result"""
+"""decorators accept functions as parameter and return function as a result"""
 
 
 def decor(func):
@@ -157,4 +160,10 @@ if __name__ == '__main__':
 else:
     print("this is executed as a module")
 
+a=Calculator(1,2,3,4,5,6,6,7,8,9,10,'asf')
 
+print(a.sum())
+print(a.multiply())
+
+b = Calculator(10,20)
+print(b.diff())
