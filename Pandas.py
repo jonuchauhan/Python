@@ -15,8 +15,7 @@ print(df[['Name', 'Type 1', 'Type 2']])
 
 print(df.iloc[1:10])  # this is like limit in sql
 
-print(df.iloc[
-          2, 1])  # first value represent row and second value represent column,this command will print 2nd row first
+print(df.iloc[2, 1])  # first value represent row and second value represent column,this command will print 2nd row first
 # 1 column
 
 for index, row in df.iterrows():
